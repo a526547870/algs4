@@ -39,12 +39,12 @@ public class RandomSeq {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
-
-        // command-line arguments
-
+        
+        //改编成直接使用不用编译使用
         String[] aaa = new String[]{"5","100.0","200.0"};
-
-
+        
+        
+        // command-line arguments
         int n = Integer.parseInt(aaa[0]);
 
         // for backward compatibility with Intro to Programming in Java version of RandomSeq
