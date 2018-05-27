@@ -41,7 +41,11 @@ public class RandomSeq {
     public static void main(String[] args) {
 
         // command-line arguments
-        int n = Integer.parseInt(args[0]);
+
+        String[] aaa = new String[]{"5","100.0","200.0"};
+
+
+        int n = Integer.parseInt(aaa[0]);
 
         // for backward compatibility with Intro to Programming in Java version of RandomSeq
         if (args.length == 1) {
@@ -52,9 +56,9 @@ public class RandomSeq {
             }
         }
 
-        else if (args.length == 3) {
-            double lo = Double.parseDouble(args[1]);
-            double hi = Double.parseDouble(args[2]);
+        else if (aaa.length == 3) {
+            double lo = Double.parseDouble(aaa[1]);
+            double hi = Double.parseDouble(aaa[2]);
 
             // generate and print n numbers between lo and hi
             for (int i = 0; i < n; i++) {
