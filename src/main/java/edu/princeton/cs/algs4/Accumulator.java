@@ -5,7 +5,7 @@
  *
  *  Mutable data type that calculates the mean, sample standard
  *  deviation, and sample variance of a stream of real numbers
- *  use a stable, one-pass algorithm.11
+ *  use a stable, one-pass algorithm.
  *
  ******************************************************************************/
 
